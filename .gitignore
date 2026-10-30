@@ -1,0 +1,26 @@
+# Node / Vite
+node_modules/
+dist/
+*.local
+.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python API virtual environments and generated files
+.venv/
+venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local editor / operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
